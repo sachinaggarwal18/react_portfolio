@@ -1,0 +1,55 @@
+{
+    "projects": [
+      {
+        "date": "07/10/2022",
+        "title": "CAR DARBAR",
+        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+        "url": "https://reactone-pied-pi.vercel.app/",
+        "imgSrc": "https://t4.ftcdn.net/jpg/03/29/57/57/360_F_329575782_ZftX0USVkTGSUgXGH2Fg3cZXlx1Nkf2A.jpg"
+      },
+  
+      {
+        "date": "11/10/2022",
+        "title": "VIDEO HUB",
+        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+        "url": "https://react-video-app-eight.vercel.app",
+        "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
+      },
+      {
+        "date": "15/10/2022",
+        "title": "XCrypto",
+        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+        "url": "https://bitcoin-jet-three.vercel.app",
+        "imgSrc": "https://penntoday.upenn.edu/sites/default/files/2022-01/cryptocurrency-main.jpg"
+      },
+      {
+        "date": "15/10/2022",
+        "title": "TicTacToe",
+        "description": "Tic-Tac-Toe is a classic two-player game where opponents take turns marking X or O on a grid, aiming to form a row, column, or diagonal to win.",
+        "url": "https://tictactoe-silk-theta.vercel.app",
+        "imgSrc": "https://play-lh.googleusercontent.com/zPxLgj5nvl20ahJV7aFC6S5mD8kii5CEEDj25j1P9CYAfXL9sdDuO-8eES0r4DhJHrU"
+      },
+      {
+        "date": "15/10/2022",
+        "title": "TextUtils",
+        "description": "Alter your text through various methods prvided",
+        "url": "https://textutils-nine-eta.vercel.app",
+        "imgSrc": "https://icons.veryicon.com/png/o/miscellaneous/application-statistics-platform-class-icon/editing-tools-1.png"
+      },
+      {
+        "date": "20/10/2022",
+        "title": "PORTFOLIO",
+        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+        "url": "/",
+        "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+      },
+      {
+        "date": "10/10/2023",
+        "title": "CAR ANIMATION",
+        "description": "This is a sample project that I worked on using the new sheery js, gsap and locomotive",
+        "url": "https://cars-lac.vercel.app",
+        "imgSrc": "https://www.hdcarwallpapers.com/walls/bmw_xm_2023_4k_8k_3-HD.jpg"
+      }
+      
+    ]
+  }
