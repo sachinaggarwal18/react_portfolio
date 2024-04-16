@@ -8,7 +8,7 @@ const Testimonial = () => {
       <section>
         <TestimonialCard
           name={"Person1"}
-           feedback={"Good luck for your future."}
+          feedback={"Good luck for your future."}
         />
 
         <TestimonialCard
@@ -30,7 +30,8 @@ const Testimonial = () => {
 const TestimonialCard = ({ name, feedback }) => (
   <article>
     <img
-      src="https://cdn2.iconfinder.com/data/icons/flat-style-svg-icons-part-1/512/user_man_male_profile_account-512.png"
+      // src="https://cdn2.iconfinder.com/data/icons/flat-style-svg-icons-part-1/512/user_man_male_profile_account-512.png"
+      src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.visualpharm.com%2Ffree-icons%2Fperson-595b40b85ba036ed117da7ec&psig=AOvVaw0btSaH7vG8QqrjaCSWbrKj&ust=1704019566357000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjE7Nr9toMDFQAAAAAdAAAAABAJ"
       alt="User"
     />
     <h4>{name}</h4>
