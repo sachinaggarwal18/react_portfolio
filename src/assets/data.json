@@ -49,6 +49,13 @@
         "description": "This is a sample project that I worked on using the new sheery js, gsap and locomotive",
         "url": "https://cars-lac.vercel.app",
         "imgSrc": "https://www.hdcarwallpapers.com/walls/bmw_xm_2023_4k_8k_3-HD.jpg"
+      },
+      {
+        "date": "10/4/2024",
+        "title": "FUSUION CHAT",
+        "description": "This is simple react-based real time chat app powered by firebase..",
+        "url": "https://sachinaggarwal18.github.io/AppliedDevopsPresentation/",
+        "imgSrc": "https://cdn2.vectorstock.com/i/1000x1000/58/41/chat-app-icon-vector-19605841.jpg"
       }
       
     ]
