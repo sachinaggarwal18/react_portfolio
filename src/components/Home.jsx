@@ -9,13 +9,14 @@ const Home = ({ ratio }) => {
   const projectCount = useRef(null);
 
   const animationClientsCount = () => {
-    animate(0, 100, {
+    animate(0, 2, {
       duration: 1,
       onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
     });
   };
+
   const animationProjectsCount = () => {
-    animate(0, 500, {
+    animate(0, 5, {
       duration: 1,
       onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
     });
@@ -43,6 +44,7 @@ const Home = ({ ratio }) => {
       },
     },
   };
+
   return (
     <div id="home">
       <section>
@@ -55,7 +57,7 @@ const Home = ({ ratio }) => {
             options={{
               strings: [
                 "A Developer",
-                "A Devops Engineer",
+                "A DevOps Engineer",
                 "A Cricket Enthusiast",
               ],
               autoStart: true,
@@ -93,9 +95,7 @@ const Home = ({ ratio }) => {
                   <motion.span
                     ref={projectCount}
                     whileInView={animationProjectsCount}
-                  >
-                    500
-                  </motion.span>
+                  ></motion.span>
                 )}
               </p>
               <span>Projects Done</span>
@@ -108,9 +108,25 @@ const Home = ({ ratio }) => {
           </aside>
         </div>
       </section>
-      <section>
-        <img src={me} alt="Abhishek" />
-      </section>
+      {/* <section>
+        <img src={me} alt="Sachin" />
+      </section> */}
+
+<section>
+  <img
+    src={me}
+    alt="Sachin"
+    style={{
+      width: "100%",
+      maxWidth: "400px",
+      height: "auto",
+      boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)", // Adds a shadow for a 3D effect
+      objectFit: "cover", // Ensures the image covers the frame beautifully
+      margin: "20px auto", // Centers the image in its container
+      display: "block", // Centers image
+    }}
+  />
+</section>
       <BsChevronDown />
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import {AiFillAndroid} from "react-icons/ai";
+import { FaFaceSmile } from "react-icons/fa6";
 import AllInclusiveIcon from '@mui/icons-material/AllInclusive';
 import DeveloperModeSharpIcon from '@mui/icons-material/DeveloperModeSharp';
 
@@ -55,8 +56,8 @@ const Services = () => {
             delay: 0.2,
           }}
         >
-          <AiFillAndroid />
-          <span>App Development</span>
+          <FaFaceSmile />
+          {/* <span>App Development</span> */}
         </motion.div>
         <motion.div
           className="serviceBox4"
